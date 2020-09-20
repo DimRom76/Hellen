@@ -373,6 +373,10 @@
   padding-bottom: 50px;
   padding-top: 115px;
 
+  @media screen and (min-width: 1353px) {
+    padding-bottom: 148px;
+  }
+
   .header_content-paragraph {
     padding-left: 68.82px;
 
@@ -466,7 +470,7 @@
       left: calc(50% - 20px);
     }
 
-    @media screen and (min-width: 1600px) {
+    @media screen and (min-width: 1680px) {
       position: absolute;
       top: 46px;
       left: calc(50% - 40px);
