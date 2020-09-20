@@ -693,6 +693,11 @@ h6 {
   padding-bottom: 50px;
   padding-top: 115px;
 }
+@media screen and (min-width: 1353px) {
+  .header__content-list {
+    padding-bottom: 148px;
+  }
+}
 .header__content-list .header_content-paragraph {
   padding-left: 68.82px;
   font-weight: bold;
@@ -784,7 +789,7 @@ h6 {
     left: calc(50% - 20px);
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1680px) {
   .header__content .header__hero-img {
     position: absolute;
     top: 46px;
@@ -2358,6 +2363,9 @@ h6 {
   }
 }
 
+.reviews-left:hover {
+  cursor: pointer;
+}
 @media screen and (min-width: 768px) {
   .reviews-left {
     position: absolute;
@@ -2372,6 +2380,9 @@ h6 {
   }
 }
 
+.reviews-right:hover {
+  cursor: pointer;
+}
 @media screen and (min-width: 768px) {
   .reviews-right {
     position: absolute;
@@ -2386,6 +2397,10 @@ h6 {
   }
 }
 
+.reviews-dot:hover {
+  cursor: pointer;
+}
+
 .reviews-dot.active {
   border-radius: 50%;
   border: 2px solid #ff6b09;
@@ -2393,7 +2408,6 @@ h6 {
 
 .registration__section {
   width: 100%;
-  height: 507px;
   margin-right: auto;
   margin-left: auto;
   background-color: #111518;
@@ -2407,7 +2421,6 @@ h6 {
 @media screen and (min-width: 768px) {
   .registration__section {
     max-width: 100%;
-    height: 520px;
     padding-bottom: 0px;
   }
 }
@@ -2605,10 +2618,6 @@ input:-ms-input-placeholder {
   }
 }
 
-.reg-button {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 @media screen and (min-width: 768px) {
   .reg-button {
     padding-top: 30px;
