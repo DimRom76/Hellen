@@ -16,13 +16,13 @@ function plusSlides(n) {
   showSlides((slideIndex += n));
 }
 
-const ArrowRight = document.getElementById('ArrowRight');
-ArrowRight.addEventListener('click', () => {
+const ArrowRight = document.getElementsByClassName('reviews-right');
+ArrowRight[0].addEventListener('click', () => {
   plusSlides(1);
 });
 
-const ArrowLeft = document.getElementById('ArrowLeft');
-ArrowLeft.addEventListener('click', () => {
+const ArrowLeft = document.getElementsByClassName('reviews-left');
+ArrowLeft[0].addEventListener('click', () => {
   plusSlides(-1);
 });
 
