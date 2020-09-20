@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\fonts\\montserrat-v14-latin_cyrillic-500.woff2":[["montserrat-v14-latin_cyrillic-500.bd5a7a4e.woff2","fonts/montserrat-v14-latin_cyrillic-500.woff2"],"fonts/montserrat-v14-latin_cyrillic-500.woff2"],"./..\\fonts\\montserrat-v14-latin_cyrillic-500.woff":[["montserrat-v14-latin_cyrillic-500.2b237b66.woff","fonts/montserrat-v14-latin_cyrillic-500.woff"],"fonts/montserrat-v14-latin_cyrillic-500.woff"],"./..\\fonts\\montserrat-v14-latin_cyrillic-600.woff2":[["montserrat-v14-latin_cyrillic-600.78bfcd30.woff2","fonts/montserrat-v14-latin_cyrillic-600.woff2"],"fonts/montserrat-v14-latin_cyrillic-600.woff2"],"./..\\fonts\\montserrat-v14-latin_cyrillic-600.woff":[["montserrat-v14-latin_cyrillic-600.9ab243fb.woff","fonts/montserrat-v14-latin_cyrillic-600.woff"],"fonts/montserrat-v14-latin_cyrillic-600.woff"],"./..\\fonts\\montserrat-v14-latin_cyrillic-700.woff2":[["montserrat-v14-latin_cyrillic-700.c08a7122.woff2","fonts/montserrat-v14-latin_cyrillic-700.woff2"],"fonts/montserrat-v14-latin_cyrillic-700.woff2"],"./..\\fonts\\montserrat-v14-latin_cyrillic-700.woff":[["montserrat-v14-latin_cyrillic-700.47587240.woff","fonts/montserrat-v14-latin_cyrillic-700.woff"],"fonts/montserrat-v14-latin_cyrillic-700.woff"],"./..\\fonts\\montserrat-v14-latin_cyrillic-800.woff2":[["montserrat-v14-latin_cyrillic-800.d8a484f6.woff2","fonts/montserrat-v14-latin_cyrillic-800.woff2"],"fonts/montserrat-v14-latin_cyrillic-800.woff2"],"./..\\fonts\\montserrat-v14-latin_cyrillic-800.woff":[["montserrat-v14-latin_cyrillic-800.d7b51b6d.woff","fonts/montserrat-v14-latin_cyrillic-800.woff"],"fonts/montserrat-v14-latin_cyrillic-800.woff"],"./..\\img\\header\\bg\\header-bg-img-mobile.png":[["header-bg-img-mobile.1433c666.png","img/header/bg/header-bg-img-mobile.png"],"img/header/bg/header-bg-img-mobile.png"],"./..\\img\\header\\bg\\header-bg-img-tablet.png":[["header-bg-img-tablet.129a2dad.png","img/header/bg/header-bg-img-tablet.png"],"img/header/bg/header-bg-img-tablet.png"],"./..\\img\\header\\bg\\header-bg-img-desktop.png":[["header-bg-img-desktop.d56ff121.png","img/header/bg/header-bg-img-desktop.png"],"img/header/bg/header-bg-img-desktop.png"],"./..\\img\\background.jpg":[["background.004d778f.jpg","img/background.jpg"],"img/background.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49337" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64778" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
