@@ -17,20 +17,20 @@ function plusSlides(n) {
 }
 
 const ArrowRight = document.getElementById('ArrowRight');
-ArrowRight.onclick = function () {
+ArrowRight.addEventListener('click', () => {
   plusSlides(1);
-};
+});
 
 const ArrowLeft = document.getElementById('ArrowLeft');
-ArrowLeft.onclick = function () {
+ArrowLeft.addEventListener('click', () => {
   plusSlides(-1);
-};
+});
 
 const dots = document.getElementsByClassName('reviews-dot');
 for (let i = 0; i < dots.length; i++) {
-  dots[i].onclick = function () {
+  dots[i].addEventListener('click', () => {
     currentSlide(i + 1);
-  };
+  });
 }
 
 function currentSlide(n) {

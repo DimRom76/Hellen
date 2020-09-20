@@ -163,6 +163,10 @@
 }
 
 .reviews-left {
+  &:hover {
+    cursor: pointer;
+  }
+
   @media screen and (min-width: $tablet) {
     position: absolute;
     top: 280px;
@@ -175,6 +179,10 @@
 }
 
 .reviews-right {
+  &:hover {
+    cursor: pointer;
+  }
+
   @media screen and (min-width: $tablet) {
     position: absolute;
     top: 280px;
@@ -184,6 +192,9 @@
     top: 330px;
     right: 35px;
   }
+}
+.reviews-dot:hover {
+  cursor: pointer;
 }
 
 .reviews-dot.active {
